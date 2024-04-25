@@ -1,9 +1,8 @@
-"""EEGNet from https://doi.org/10.1088/1741-2552/aace8c.
-Shallow and lightweight convolutional neural network proposed for a general decoding of single-trial EEG signals.
-It was proposed for P300, error-related negativity, motor execution, motor imagery decoding.
+"""ConformerNet
+Conformer architecture with a shallow convolutional module for EEG classification.
 
 Authors
- * Davide Borra, 2021
+ * Seina Assadian, 2024
 """
 import torch
 import speechbrain as sb
